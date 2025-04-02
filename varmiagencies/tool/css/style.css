@@ -1,0 +1,180 @@
+﻿.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 13px;
+  }
+
+  .dropdown-content-12{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 13px;
+    top: 40px;
+    right: 0;
+
+  }
+
+  footer{
+    position: absolute;
+    background-color: lightblue;
+    height: 40px;
+    z-index: 1;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .dropdown-content-12 li{
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family:verdana;
+    font-weight: bold;
+  }
+
+  .title-brand, .title-brand:hover{
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .menu-section, .menu-icon{
+    background-color: lightblue;
+    box-shadow: 5px 4px 8px rgba(0,0,0,0.5);
+  }
+
+  .navbar-nav li {
+    padding: 16px;
+  }
+  .navbar-nav li button, .dropdown-content-12 button{
+    border: none;
+    background-color: transparent;
+  }
+
+  .navbar-nav li button a, .navbar-nav li button a:hover, .dropdown-content-12 button a{
+    font-family:Verdana, Arial, Tahoma, Serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-nav li button a:visited{
+    color: #301934;
+  }
+  .logo{
+    padding: 10px;
+    position: absolute;
+    z-index: 12;
+  }
+ body{
+    overflow-x: hidden;
+ }
+ i{
+    font-weight: 30px;
+ }
+ .body-section{
+  min-height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .one{
+  font-weight: bold;
+  font-family:Verdana, Arial, Tahoma, Serif;
+  color: whitesmoke ;
+ }
+ .one{
+  font-size: 70px;
+ }
+ .two{
+  font-size: 30px;
+ }
+ .three button{
+  font-size: 15px;
+  border: none;
+  background-color: #0072ce;
+  color: white !important;
+  font-weight: bold;
+  font-family:Verdana, Arial, Tahoma, Serif;
+  border-radius: 9px;
+  padding: 20px;
+  margin-top: 20px;
+ }
+
+ .icon{
+  color: black;
+  padding: 12px;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+ }
+
+ .menu-icon{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vh; 
+  height: 60px;
+
+ }
+
+ .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.con-events {
+  padding: 2px 16px;
+  width: 600px;
+}
+
+.insert-form{
+  margin-left: 300px;
+}
+.card{padding: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}
+.blue-text{color: #00BCD4}
+.form-control-label{margin-bottom: 0}
+input, textarea, button{
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;box-sizing: border-box;
+  border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
